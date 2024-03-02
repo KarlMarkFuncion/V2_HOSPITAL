@@ -1,0 +1,194 @@
+    body {
+        background-color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* Navigation Bar Properties */
+    nav{
+        overflow: hidden;
+        border-radius: 5px;
+        margin-bottom: 5%;
+      }
+
+      nav {
+        background-color: #34495e; 
+      }
+  
+      .nav{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      .brandname{
+        float: left;
+      }
+  
+      .navbar {
+        float: right;
+      }
+  
+      .navbar a, .brandname a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px; 
+        text-decoration: none;
+        color: white;
+      }
+  
+      .navbar a:hover, .brandname:hover {
+        background-color: #17d398; 
+        color: #34495e; 
+      }
+
+      /* Container-Form Properties */
+
+      .container{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30%;
+        height: 30%;
+      }
+
+      .form {
+        background: #17d398;
+        border-radius: 10px;
+        padding: 5%;
+        font-size: medium;
+        font-weight: bold;
+      }
+
+      .form input, .form select {
+        background: #34495e;
+        border-radius: 10px;
+        border-color: none;
+        width: 100%;
+        margin: 1%;
+        color:white;
+      }
+
+      .form select{
+        font-size: medium;
+      }
+
+      .description{
+        height: 120px;
+        box-sizing: border-box;
+        vertical-align: text-top;
+        line-height: normal;
+        padding: 0%;
+      }
+
+      button{
+        float: right;
+        padding: 1.5%;
+        background-color: #34495e;
+        font-size: medium;
+        color: white;
+        border-radius: 5px;
+      }
+
+      button:hover {
+        background-color: white;
+        color: #34495e;
+        cursor: pointer;
+      }
+
+      .headline, .back{
+        display: inline;
+      }
+
+      .back{
+        float: right;
+        margin-right: 1%;
+        text-decoration: none;
+        color: #000;
+      }
+
+      .appointmentTable{
+        border-collapse: collapse;
+        width: 90%;
+        margin-left: 5%;
+      }
+
+      .appointmentTable th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #17d398;
+        color: white;
+      }
+
+      .appointmentTable th:hover {
+        background-color: #34495e;
+      }
+
+      .appointmentTable td{
+        text-align: center;
+        color: black;
+        border-bottom: 1px solid gray;
+      }
+
+      .appointmentTable td, .patientAppointmentTable td{
+        padding-top: 12px;
+        padding-bottom: 12px;
+
+      }
+
+      #upcomingHeadline, #finishedAppointment{
+        display: inline;
+      }
+
+      #upcomingHeadline{
+        margin-left: 5%;
+      }
+      #finishedAppointment{
+        float: inline-end;
+        text-decoration: none;
+        color: #000;
+        margin-right: 5%;
+      }
+      patientUpcomingAppointments
+    
+      .patientAppointmentTable button {
+        margin: 2px;
+        font-size: small;
+        text-align: center;
+      }
+
+      .patientAppointmentTable{
+        border-bottom: 1px solid grey;
+        border-right: 1px solid lightgrey;
+        border-radius: 10px;
+        position: static;
+        width: 60%;
+        margin-left: 20%;
+      }
+     .data {
+      	text-align: left;
+      }
+
+      .bottom{
+        border:  1 solid black;
+      }
+
+      .patientAppointmentTable td{
+        
+        text-align: left;
+
+      }
+
+      #patientUpcomingHeadline{
+        display: inline;
+        margin-left: 20%;
+      }
+
+      #detailsback{
+        display: inline;
+        float: right;
+        margin-right: 20%;
+        text-decoration: none;
+        color: #000;
+      }
